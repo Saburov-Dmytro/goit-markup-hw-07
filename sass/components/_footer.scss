@@ -44,8 +44,6 @@
   }
 
   &__email {
-    color: $mailtel-logo-footer;
-
     @extend %text-section;
 
     &:hover,
@@ -55,17 +53,19 @@
 
     display: block;
     margin-bottom: 9px;
+
+    color: $mailtel-logo-footer;
   }
 
   &__tel {
-    color: $mailtel-logo-footer;
-
     @extend %text-section;
 
     &:hover,
     &:focus {
       color: $accent-color;
     }
+
+    color: $mailtel-logo-footer;
   }
 }
 
