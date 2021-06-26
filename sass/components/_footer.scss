@@ -46,11 +46,6 @@
   &__email {
     @extend %text-section;
 
-    &:hover,
-    &:focus {
-      color: $accent-color;
-    }
-
     display: block;
     margin-bottom: 9px;
 
@@ -60,12 +55,25 @@
   &__tel {
     @extend %text-section;
 
-    &:hover,
-    &:focus {
-      color: $accent-color;
-    }
-
     color: $mailtel-logo-footer;
+  }
+}
+
+.address__email {
+  @extend %text-section;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.address__tel {
+  @extend %text-section;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
 }
 
