@@ -49,11 +49,21 @@
     display: block;
     margin-bottom: 9px;
 
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+
     color: $mailtel-logo-footer;
   }
 
   &__tel {
     @extend %text-section;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
 
     color: $mailtel-logo-footer;
   }
